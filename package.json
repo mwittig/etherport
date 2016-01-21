@@ -12,10 +12,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "es6-shim": "^0.25.3"
+    "es6-shim": "^0.34.1"
   },
   "devDependencies": {
-    "firmata": "^0.4.0",
+    "firmata": "^0.8.0",
     "sinon": "^1.13.0",
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.0",
