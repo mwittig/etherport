@@ -6,3 +6,7 @@ board.on("ready", function() {
   var led = new five.Led(8);
   led.blink(500);
 });
+
+board.on("error", function(error) {
+  console.log("error", error);
+});
