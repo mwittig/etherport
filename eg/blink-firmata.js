@@ -18,3 +18,7 @@ board.on("ready", function() {
     this.digitalWrite(8, (state ^= 1));
   }.bind(this), 500);
 });
+
+board.on("error", function(error) {
+  console.log("error", error);
+});
