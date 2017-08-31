@@ -1,6 +1,10 @@
 # EtherPort
 
+[![Build Status](https://travis-ci.org/rwaldron/etherport.svg?branch=master)](https://travis-ci.org/rwaldron/etherport)
+
+
 EtherPort is a transport layer that works in conjunction with [Firmata.js]() to enable communcation with an Ethernet capable Arduino or similar device. 
+
 
 
 ## Setup
@@ -8,8 +12,7 @@ EtherPort is a transport layer that works in conjunction with [Firmata.js]() to 
 EtherPort can be used to communicate with an Arduino (or similar) board running either: 
 
 - [StandardFirmataEthernet](https://github.com/firmata/arduino) (preferred)
-- [StandardFirmataEthernetPlus](https://github.com/firmata/arduino)
-- [ConfigurableFirmata](https://github.com/firmata/arduino)
+- [ConfigurableFirmata](https://github.com/firmata/arduino/tree/configurable)
 
 
 
